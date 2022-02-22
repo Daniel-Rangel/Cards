@@ -5,20 +5,26 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-body{
+/* body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
     background-color: #322846;
+} */
+
+.cotainer{
+    width: 100%;
+    min-height: 100vh;
 }
 
-.container{
+.container-0{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     padding: 40px;
+    background-color: #322846;
 }
 
 .card0{
